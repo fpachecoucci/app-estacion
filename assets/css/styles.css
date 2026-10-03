@@ -1,0 +1,10 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: sans-serif; background: #0f172a; color: #f8fafc; }
+.app-header { background: #1e293b; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+.app-header a { color: #38bdf8; margin-left: 1rem; text-decoration: none; }
+.container { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
+.hero-card, .card-detalle { background: #1e293b; padding: 2rem; border-radius: 12px; text-align: center; }
+.grid-estaciones { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.card-estacion { background: #1e293b; border: 1px solid #334155; padding: 1.5rem; border-radius: 10px; }
+.btn-primary, .btn-detalle, .btn-back { background: #0284c7; color: white; padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none; border: none; cursor: pointer; display: inline-block; margin-top: 1rem; }
+.hidden { display: none; }
